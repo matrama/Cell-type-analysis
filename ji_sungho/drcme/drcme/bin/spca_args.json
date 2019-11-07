@@ -1,0 +1,8 @@
+{
+	"params_file" : "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/config/default_spca_params.json",
+	"output_dir" : "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/bin/output",
+	"output_code" : "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drce/bin/output/output.txt",
+	"datasets": [{
+		"fv_h5_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/ephys_data.h5"
+	}]
+}

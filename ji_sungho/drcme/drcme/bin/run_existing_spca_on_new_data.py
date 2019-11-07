@@ -26,7 +26,7 @@ class SpcaTransformParameters(ags.ArgSchema):
         required=True,
         many=True,
         description="schema for loading one or more specific datasets for the analysis")
-    params_file = ags.fields.InputFile(default="/allen/aibs/mat/nathang/single-cell-ephys/dev/default_spca_params.json")
+    params_file = ags.fields.InputFile(default="/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/config/default_spca_params.json")
     output_file = ags.fields.OutputFile(description="CSV with transformed values")
     use_noise = ags.fields.Boolean(default=False)
 

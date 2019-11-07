@@ -10,7 +10,7 @@ import json
 
 
 class DatasetParameters(ags.schemas.DefaultSchema):
-    fv_h5_file = ags.fields.InputFile(description="HDF5 file with feature vectors")
+    fv_h5_file = ags.fields.InputFile(default = "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/ephys_data.h5", description="HDF5 file with feature vectors")
     metadata_file = ags.fields.InputFile(description="Metadata file in CSV format", allow_none=True, default=None)
     dendrite_type = ags.fields.String(default="all", validate=lambda x: x in ["all", "spiny", "aspiny"])
     allow_missing_structure = ags.fields.Boolean(required=False, default=False)
@@ -19,9 +19,8 @@ class DatasetParameters(ags.schemas.DefaultSchema):
     id_file = ags.fields.InputFile(description="Text file with IDs to use",
         required=False, allow_none=True, default=None)
 
-
 class AnalysisParameters(ags.ArgSchema):
-    params_file = ags.fields.InputFile(default="/allen/programs/celltypes/workgroups/ivscc/nathang/single-cell-ephys/dev/default_spca_params.json")
+    params_file = ags.fields.InputFile(default="/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/config/default_spca_params.json")
     output_dir = ags.fields.OutputDir(description="directory for output files")
     output_code = ags.fields.String(description="code for output files")
     datasets = ags.fields.Nested(DatasetParameters,
@@ -29,9 +28,7 @@ class AnalysisParameters(ags.ArgSchema):
                                  many=True,
                                  description="schema for loading one or more specific datasets for the analysis")
 
-
 def main(params_file, output_dir, output_code, datasets, **kwargs):
-
     # Load data from each dataset
     data_objects = []
     specimen_ids_list = []

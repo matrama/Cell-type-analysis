@@ -359,8 +359,7 @@ def load_h5_data(h5_fv_file, params_file, metadata_file=None, dendrite_type="all
 
     f = h5py.File(h5_fv_file, "r")
     spca_zht_params, step_num = define_spca_parameters(filename=params_file)
-
-    specimen_ids = f["ids"][...]
+    specimen_ids = f["specimen_id"][...]
     logging.info("Starting with {:d} cells".format(len(specimen_ids)))
 
     # Identify cells with no ramp spike

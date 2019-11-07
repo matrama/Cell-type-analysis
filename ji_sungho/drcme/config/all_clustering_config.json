@@ -1,18 +1,18 @@
 {
-    "components_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/data/pitprops_spca_loadings.csv",
+    "components_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/data/pitprops_spca_loadings.csv",
 
-    "tau_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/gmm_tau.csv",
-    "labels_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/gmm_labels.csv",
-    "bic_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/gmm_bic.csv",
+    "tau_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/gmm_tau.csv",
+    "labels_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/gmm_labels.csv",
+    "bic_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/gmm_bic.csv",
 
 
-    "merge_info_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/entropy_merge_info.json",
-    "post_merge_tau_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/post_cumul_merges_tau.csv",
-    "post_merge_labels_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/post_cumul_merges_labels.csv",
-    "jaccard_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/jaccard_means.csv",
-    "etypes_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/etype_labels.csv",
-    "post_merge_proba_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/post_merge_proba.txt",
-    "merge_unstable_info_file": "/Users/jihan/documents/neuron/Cell-type-analysis/allen-inst-celltypes/drcme/drcme/tests/test_ephys_clustering/merging_unstable_info.json",
+    "merge_info_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/entropy_merge_info.json",
+    "post_merge_tau_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/post_cumul_merges_tau.csv",
+    "post_merge_labels_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/post_cumul_merges_labels.csv",
+    "jaccard_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/jaccard_means.csv",
+    "etypes_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/etype_labels.csv",
+    "post_merge_proba_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/post_merge_proba.txt",
+    "merge_unstable_info_file": "/Users/jihan/documents/celltypes/Cell-type-analysis/ji_sungho/drcme/drcme/tests/test_ephys_clustering/merging_unstable_info.json",
     "entropy_piecewise_components": 3,
     "outliers": []
 }
